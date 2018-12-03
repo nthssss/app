@@ -2,7 +2,7 @@
 ---
 # 编译安装Python
 ## 安装依赖
-`yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc make`
+`yum install expat-devel gdbm-devel zlib-devel MySQL-python python-devel unzip bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc gcc-c++ make`
 
 ## 下载源码
 `wget http://mirrors.sohu.com/python/3.6.6/Python-3.6.6.tgz`
