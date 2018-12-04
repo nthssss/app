@@ -31,7 +31,7 @@ python -V
 vi /usr/bin/yum
 vi /usr/libexec/urlgrabber-ext-down
 ```
-## 指定pip到pip3
+## 指定pip到pip3(现在没有python2的pip)
 ```
 ln -s /usr/local/bin/pip3.6 /usr/bin/pip
 ```
