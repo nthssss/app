@@ -9,7 +9,7 @@
 ## 编译安装
 ```
 tar -xzvf /usr/local/src/Python-3.6.6.tgz -C /usr/local/src/
-cd /usr/local/src/Python-3.6.6
+cd /usr/local/src/Python-3.6.6 1
 # 以下两行分开执行
 ./configure --prefix=/usr/local/bin/python3 
 ./configure --enable-optimizations
@@ -22,11 +22,14 @@ alternatives --install /usr/bin/python python /usr/bin/python2.7 1
 alternatives --config python
 python -V
 ```
-## 指定pip到pip3
-
-
+## 修改脚本声明
 ```
-cd 
+vi /usr/bin/yum
+vi /usr/libexec/urlgrabber-ext-down
+```
+## 指定pip到pip3
+```
+
 ```
 
 
