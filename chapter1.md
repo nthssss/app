@@ -36,5 +36,5 @@ vi /usr/libexec/urlgrabber-ext-down
 ln -s /usr/local/bin/pip3.6 /usr/bin/pip
 ```
 ## 升级pip
-`python -m pip install --upgrade`
+`pip install --upgrade pip`
 
