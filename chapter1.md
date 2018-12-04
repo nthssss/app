@@ -10,7 +10,9 @@
 ```
 tar -xzvf /usr/local/src/Python-3.6.6.tgz -C /usr/local/src/
 cd /usr/local/src/Python-3.6.6
-./configure --prefix=/usr/local/bin/python3 --enable-optimizations
+# 以下两行分开执行
+./configure --prefix=/usr/local/bin/python3 
+./configure --enable-optimizations
 make altinstall
 ```
 ## 指定python到python3
