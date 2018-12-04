@@ -15,7 +15,6 @@ make altinstall
 ```
 ## 指定python到python3
 ```
-alternatives --install /usr/bin/python /usr/local/bin/python3.6 6
 alternatives --install /usr/bin/python python /usr/local/bin/python3.6.6
 alternatives --install /usr/bin/python python /usr/bin/python2.7 1
 alternatives --config python
