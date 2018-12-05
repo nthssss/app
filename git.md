@@ -43,4 +43,13 @@ git checkout <my_branch>
         git pull origin :release_v1.0.1
         git checkout release_v1.0.1
     ```
-    
+- 改bug、`add&commit`
+- `push`
+    ```
+    git push origin release_v1.0.1
+    git push origin release_v1.0.1
+    ```
+- `checkout`
+    ```
+    git checkout <my_branch>
+    ```
