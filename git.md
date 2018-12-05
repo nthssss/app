@@ -14,6 +14,8 @@ git config --global user.email "<email>"
 git clone <pro_url>.git  # 克隆master分支
 git clone -b <branch\_name> <pro_url>.git  # 克隆指定分支
 ```
+## remote
+`git remote add origin <pro_url>.git`
 
 
 
