@@ -53,6 +53,6 @@ git checkout <my_branch>
     ```
     git checkout <my_branch>
     git stash pop
+    add & commit
+    git pull origin release_v1.0.1
     ```
-    `add & commit`
-    `git pull origin release_v1.0.1`
