@@ -26,6 +26,7 @@ git checkout <my_branch>
 - 拉取代码
 
     `git pull origin`
+    
 ## add>commit>pull>push
 ```
     git add -all
@@ -34,4 +35,5 @@ git checkout <my_branch>
     git push origin <my_branch>
 ```
 
-
+## debug
+`git stash 缓存当前修改`
