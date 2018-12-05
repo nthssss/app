@@ -35,6 +35,9 @@ git push origin <my_branch>
 ```
 
 ## debug
+
+使用python VCS工具更佳。
+
 - `git stash 缓存当前未add、commit修改`
 - 远程从release分支新建debug分支：`v1.0.0_release>v1.0.1_release`
 - 拉取分支并切换
