@@ -18,11 +18,13 @@ git clone -b <branch\_name> <pro_url>.git  # 克隆指定分支
 `git remote add origin <pro_url>.git`
 
 ## pull
-### 拉去分支并切换
+### 拉取分支并切换
 ```
 git pull origin :<branch>
 git checkout <branch>
 ```
+## 拉取代码
+`git pull origin`
 
 
 
