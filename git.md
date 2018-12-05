@@ -26,7 +26,7 @@ git checkout <my_branch>
 - 拉取代码
 
     `git pull origin`
-## add&commit
+## add>commit>pull>push
 ```
     git add -all
     git commit -am "<commit_name>"
