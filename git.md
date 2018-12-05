@@ -52,4 +52,5 @@ git checkout <my_branch>
 - `checkout`
     ```
     git checkout <my_branch>
+    git stash pop
     ```
