@@ -34,6 +34,7 @@ git checkout <my_branch>
     git pull origin <develop_branch>
     git push origin <my_branch>
 ```
-
+## 
 ## debug
-`git stash 缓存当前修改`
+`git stash 缓存当前未add、commit修改`
+远程从release分支新建debug分支：`release_v1.0.0>release_v1.0.1`
