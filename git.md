@@ -66,3 +66,4 @@ git stash pop
 git pull origin develop
 git push origin develop
 ```
+远程发起merge request:`<my_branch>-><develop_branch>`
