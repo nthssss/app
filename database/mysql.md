@@ -7,6 +7,9 @@
 ## 首次登陆配置
 1. 首次登陆
 `mysql -u root `
+- 设置密码安全等级
+`SHOW VARIABLES LIKE 'validate_password%';`
+`set global validate_password_policy=LOW;`
 - 设置密码
 `set password for 'root'@'localhost' =password('password');`
 - 给root用户远程调试权限
