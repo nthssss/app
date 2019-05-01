@@ -20,4 +20,12 @@ vi /usr/libexec/urlgrabber-ext-down
 yum install -y epel-release
 yum install -y python-pip
 ```
+## 指定pip3.6到pip3
+```
+ln -s /usr/local/bin/pip3.6 /usr/bin/pip3
+```
+## 升级pip
+`pip install --upgrade pip`
+
+
 
