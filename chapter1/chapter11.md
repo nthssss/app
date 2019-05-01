@@ -1,0 +1,7 @@
+#安装pip
+---
+```
+yum install -y epel-release
+yum install -y python-pip
+```
+
