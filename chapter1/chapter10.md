@@ -1,4 +1,4 @@
-# 编译安装Python
+# 编译安装Python3
 ## 切换root用户
 ```
 su
