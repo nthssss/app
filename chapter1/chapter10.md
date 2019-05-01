@@ -4,7 +4,7 @@
 su
 ```
 ## 安装依赖
-`yum install expat-devel gdbm-devel zlib-devel MySQL-python python-devel unzip bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc gcc-c++ make`
+`yum install libffi-devel expat-devel gdbm-devel zlib-devel MySQL-python python-devel unzip bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gcc gcc-c++ make`
 
 ## 下载源码
 `wget http://mirrors.sohu.com/python/3.6.6/Python-3.6.6.tgz`
