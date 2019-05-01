@@ -19,18 +19,7 @@ cd /usr/local/src/Python-3.6.6
 ./configure --enable-optimizations
 make altinstall
 ```
-## 指定python到python3
-```
-alternatives --install /usr/bin/python python /usr/local/bin/python3.6 1
-alternatives --install /usr/bin/python python /usr/bin/python2.7 2
-alternatives --config python
-python -V
-```
-## 修改脚本声明
-```
-vi /usr/bin/yum
-vi /usr/libexec/urlgrabber-ext-down
-```
+
 ## 指定pip到pip3(现在没有python2的pip)
 ```
 ln -s /usr/local/bin/pip3.6 /usr/bin/pip
