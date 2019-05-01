@@ -19,10 +19,9 @@ cd /usr/local/src/Python-3.6.6
 ./configure --enable-optimizations
 make altinstall
 ```
-
-## 指定pip到pip3(现在没有python2的pip)
+## 指定pip3.6到pip3
 ```
-ln -s /usr/local/bin/pip3.6 /usr/bin/pip
+ln -s /usr/local/bin/pip3.6 /usr/bin/pip3
 ```
 ## 升级pip
 `pip install --upgrade pip`
